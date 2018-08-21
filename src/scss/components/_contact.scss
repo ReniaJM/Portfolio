@@ -1,0 +1,52 @@
+.main-contact-text {
+    margin-bottom:60px;
+    color:$color3;
+    text-align: center;
+}
+
+
+.mail{
+  padding: 20px;
+  text-align: center;
+  font-size:1.5em;
+}
+
+.tel{
+
+  padding: 20px;
+  text-align: center;
+  font-size: 1.5em;
+
+}
+
+.github{
+  padding: 20px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.github img{
+  padding: 20px;
+}
+
+.download-cv{
+  padding: 20px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.box-contact{
+  padding: 20px;
+  color: $color3;
+
+}
+
+@media only screen and (max-width:1024px) {
+
+  .box-contact{
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+  }
+
+}

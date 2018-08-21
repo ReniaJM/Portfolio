@@ -1,0 +1,82 @@
+.parallax {
+    position:relative;
+    z-index:1;
+    max-height:600px;
+    -webkit-box-shadow: inset 0px -6px 5px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: inset 0px -6px 5px rgba(50, 50, 50, 0.75);
+    box-shadow: inset 0px -6px 5px rgba(50, 50, 50, 0.75);
+}
+
+#trans1 {
+    background: url('http://i1079.photobucket.com/albums/w507/Renia861/code-coder-codes-34600_zpsrbw6bkar.jpg') no-repeat fixed;
+    height:600px;
+    background-position: center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#trans1:before {
+  content:'';
+  position: absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  background: linear-gradient($color2, $color1);
+  opacity:0.9;
+}
+
+.txt {
+  font-weight: lighter;
+  font-size: 2rem;
+  width:auto;
+  padding:5px 10px;
+  text-align: justify;
+  color: black;
+  column-count: 2;
+  column-gap: 20px;
+  column-rule:1px solid $color1;
+
+
+}
+
+.txt a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  z-index: 2000;
+  text-decoration: underline;
+}
+
+.content {
+    box-sizing:border-box;-moz-box-sizing:border-box;
+    position:relative;
+    z-index:2;
+    width:100%;
+    margin:0;
+    padding:10px 20px;
+    -webkit-box-shadow: 0px 6px 5px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 0px 6px 5px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px 6px 5px rgba(50, 50, 50, 0.75);
+    text-align:left;
+    background: rgba(#F4F4F4, 0.5);
+    opacity: 0.7;
+}
+
+@media (min-width:360px) and (max-width: 959px) {
+ .txt{
+  font-size: 16px;
+   column-count: 1;
+   column-gap: 0;
+   column-rule:none;
+   text-align: justify;
+ }
+
+}
+
+
+
+
+
