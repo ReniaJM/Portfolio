@@ -18,16 +18,30 @@
 }
 
 .box-photo-first:hover > img{
-  border-radius:20%;
-  transition: 1s all;
+  transition-property: width, background;
+  transition-duration: 1s;
+  transition: step-start;
+  opacity: 0.8;
 
+
+}
+
+.box-photo-first:before {
+  content:'';
+  position: absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height:80%;
+  background: $color1;
+  opacity: 0.2;
 }
 
 .box-photo-first {
   display: inline-block;
   margin:30px;
   background: rgba(148, 115, 130, 0.1);
-  border-radius:20%;
+
 
 }
 

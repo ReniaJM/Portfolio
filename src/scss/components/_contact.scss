@@ -1,7 +1,9 @@
 .main-contact-text {
-    margin-bottom:60px;
+    margin-bottom:40px;
     color:$color3;
     text-align: center;
+    opacity: 0.5;
+
 }
 
 
@@ -13,26 +15,34 @@
 
 .tel{
 
-  padding: 20px;
+  padding: 30px;
   text-align: center;
   font-size: 1.5em;
 
 }
 
-.github{
+.portals{
   padding: 20px;
   text-align: center;
   font-size: 1.5em;
 }
 
-.github img{
+.portals img{
   padding: 20px;
+}
+
+.portals img:hover{
+  opacity: 0.6;
 }
 
 .download-cv{
-  padding: 20px;
+  padding: 40px;
   text-align: center;
   font-size: 1.5em;
+}
+
+.download-cv img:hover{
+  opacity: 0.6;
 }
 
 .box-contact{
