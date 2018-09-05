@@ -65,16 +65,16 @@
     opacity: 0.7;
 }
 
-@media (min-width:360px) and (max-width: 959px) {
+@media (min-width:320px) and (max-width: 959px) {
  .txt{
-  font-size: 16px;
+  font-size: 14px;
    column-count: 1;
    column-gap: 0;
    column-rule:none;
    text-align: justify;
    margin-top: 5px;
  }
-  
+
 }
 
 

@@ -5,8 +5,8 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
+    background-attachment: scroll;
     display: block;
-
     padding-top: 56.25%;
 
 }
@@ -45,7 +45,7 @@
     }
     .main-hero{
 
-        background-size: calc(100vh + 50px) ;
+        background-size: calc(100vh + 50px) calc(100vh + 50px);
     }
 
 }
@@ -54,13 +54,11 @@
 
 @media only screen and (min-width:1024px)and (orientation: landscape) {
     #messenger{
-        font-size: 2em;
-
+        font-size: 1em;
     }
 
     .main-hero{
-
-        background-size: 100% 100%;
+        background-size: calc(100vh + 50px) ;
     }
 
 
